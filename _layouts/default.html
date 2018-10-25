@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>ndr3w221 - Home</title>
+    <title>ndr3w221 - {{ page.title }}</title>
     <link rel="stylesheet" href="/css/style.css">
   </head>
   <body>
@@ -10,10 +10,9 @@
       <a href="/">Home</a>
       <a href="/projects/">Projects</a>
     </nav>
-    <h1>Home</h1>
+    <h1>{{ page.title }}</h1>
     <section>
-      <h1 id="meme">meme</h1>
-
+      {{ content }}
     </section>
     <footer>
       &copy; to me
